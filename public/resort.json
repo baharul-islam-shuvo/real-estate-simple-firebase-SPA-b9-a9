@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "estate_title": "Sea Pearl Beach Resort & Spa Cox's Bazar",
+        "segment_name": "Luxury",
+        "description": "A beachfront resort offering breathtaking ocean views and world-class amenities.",
+        "price": "15,000 BDT/night",
+        "status": "rent",
+        "area": "5000 sq ft",
+        "location": "Cox's Bazar, Bangladesh",
+        "facilities": [
+            "Living room",
+            "Swimming pool",
+            "Spa",
+            "Private beach",
+            "Restaurant"
+        ],
+        "image": "https://i.ibb.co.com/KqrN4mp/royal-tulip-sea-pearl.jpg"
+    },
+    {
+        "id": 2,
+        "estate_title": "Hilltop Eco Resort",
+        "segment_name": "Eco-Friendly",
+        "description": "Surrounded by nature, this resort offers a sustainable stay with scenic mountain views.",
+        "price": "10,000 BDT/night",
+        "status": "rent",
+        "area": "3000 sq ft",
+        "location": "Bandarban, Bangladesh",
+        "facilities": [
+            "Living room",
+            "Outdoor pool",
+            "Eco garden",
+            "Restaurant",
+            "Hiking trails"
+        ],
+        "image": "https://example.com/images/hilltop-resort.jpg"
+    },
+    {
+        "id": 3,
+        "estate_title": "Riverside Retreat",
+        "segment_name": "Premium",
+        "description": "A serene resort by the river, perfect for relaxation and water activities.",
+        "price": "12,000 BDT/night",
+        "status": "rent",
+        "area": "4000 sq ft",
+        "location": "Sreemangal, Sylhet",
+        "facilities": [
+            "Living room",
+            "Swimming pool",
+            "Boating",
+            "Fishing deck",
+            "Barbecue area"
+        ],
+        "image": "https://example.com/images/riverside-retreat.jpg"
+    },
+    {
+        "id": 4,
+        "estate_title": "Luxury Desert Resort",
+        "segment_name": "Exclusive",
+        "description": "An exotic resort offering unique experiences amidst desert landscapes.",
+        "price": "20,000 BDT/night",
+        "status": "rent",
+        "area": "4500 sq ft",
+        "location": "Jaflong, Sylhet",
+        "facilities": [
+            "Living room",
+            "Private pool",
+            "Sand dunes tours",
+            "Bonfire area",
+            "Spa"
+        ],
+        "image": "https://example.com/images/desert-resort.jpg"
+    },
+    {
+        "id": 5,
+        "estate_title": "Lakefront Villa Resort",
+        "segment_name": "Luxury",
+        "description": "A resort with private villas overlooking a pristine lake.",
+        "price": "18,000 BDT/night",
+        "status": "rent",
+        "area": "3500 sq ft",
+        "location": "Rangamati, Bangladesh",
+        "facilities": [
+            "Living room",
+            "Infinity pool",
+            "Boating",
+            "Private deck",
+            "Outdoor dining"
+        ],
+        "image": "https://example.com/images/lakefront-villa.jpg"
+    },
+    {
+        "id": 6,
+        "estate_title": "Modern Villa in Dhaka",
+        "segment_name": "Luxury",
+        "description": "A spacious villa with modern amenities, perfect for families.",
+        "price": "25,000,000 BDT",
+        "status": "sale",
+        "area": "3500 sq ft",
+        "location": "Gulshan, Dhaka",
+        "facilities": [
+            "Living room",
+            "Swimming pool",
+            "Kitchen",
+            "Garage",
+            "Garden"
+        ],
+        "image": "https://example.com/images/villa-dhaka.jpg"
+    },
+    {
+        "id": 7,
+        "estate_title": "Cozy Apartment for Rent",
+        "segment_name": "Apartment",
+        "description": "A fully furnished two-bedroom apartment with a great view.",
+        "price": "50,000 BDT/month",
+        "status": "rent",
+        "area": "1200 sq ft",
+        "location": "Banani, Dhaka",
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Balcony",
+            "Parking"
+        ],
+        "image": "https://example.com/images/apartment-rent.jpg"
+    },
+    {
+        "id": 8,
+        "estate_title": "Elegant Duplex with Pool",
+        "segment_name": "Premium",
+        "description": "A luxurious duplex with private pool and smart home features.",
+        "price": "35,000,000 BDT",
+        "status": "sale",
+        "area": "4000 sq ft",
+        "location": "Dhanmondi, Dhaka",
+        "facilities": [
+            "Living room",
+            "Swimming pool",
+            "Kitchen",
+            "Home theater",
+            "Gym"
+        ],
+        "image": "https://example.com/images/duplex.jpg"
+    },
+    {
+        "id": 9,
+        "estate_title": "Compact Studio Apartment",
+        "segment_name": "Budget",
+        "description": "Affordable studio apartment with all essential facilities.",
+        "price": "25,000 BDT/month",
+        "status": "rent",
+        "area": "500 sq ft",
+        "location": "Mirpur, Dhaka",
+        "facilities": [
+            "Living room",
+            "Kitchen",
+            "Shared gym",
+            "Rooftop access"
+        ],
+        "image": "https://example.com/images/studio-apartment.jpg"
+    }
+]
