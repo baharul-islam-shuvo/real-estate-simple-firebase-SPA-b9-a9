@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
 
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/test">Products</NavLink></li>
+        <li><NavLink to="/update-profile">Update Profile</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
     </>
 
@@ -32,7 +32,11 @@ const Header = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <Link
+                    to="/"
+                    className="btn btn-ghost text-xl font-bold">
+                    SPA Tropical Resort
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="flex font-bold gap-16">
@@ -40,14 +44,18 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                    <div className="w-10 rounded-full">
-                        <img
-                            alt="Tailwind CSS Navbar component"
-                            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                <Link to="/update-profile">
+                    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                        <div className="w-10 rounded-full">
+                            <img
+                                alt="Tailwind CSS Navbar component"
+                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                        </div>
                     </div>
-                </div> 
-                <a className="btn btn-ghost btn-lg ml-3 font-bold">Login</a>
+                </Link>
+                <Link to="/login" className="btn btn-ghost btn-lg ml-3 font-bold">
+                    Login
+                </Link>
             </div>
         </div>
     );

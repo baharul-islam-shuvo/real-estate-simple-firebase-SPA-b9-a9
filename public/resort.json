@@ -19,7 +19,7 @@
     },
     {
         "id": 2,
-        "estate_title": "Hilltop Eco Resort",
+        "estate_title": "Labah Tong Hill Resort Ltd",
         "segment_name": "Eco-Friendly",
         "description": "Surrounded by nature, this resort offers a sustainable stay with scenic mountain views.",
         "price": "10,000 BDT/night",
@@ -33,11 +33,11 @@
             "Restaurant",
             "Hiking trails"
         ],
-        "image": "https://example.com/images/hilltop-resort.jpg"
+        "image": "https://i.ibb.co.com/C101M4N/labah-tong-hill-resort-ltd.jpg"
     },
     {
         "id": 3,
-        "estate_title": "Riverside Retreat",
+        "estate_title": "Grand Sultan",
         "segment_name": "Premium",
         "description": "A serene resort by the river, perfect for relaxation and water activities.",
         "price": "12,000 BDT/night",
@@ -51,11 +51,11 @@
             "Fishing deck",
             "Barbecue area"
         ],
-        "image": "https://example.com/images/riverside-retreat.jpg"
+        "image": "https://i.ibb.co.com/bBZLHjT/grand-sultan.jpg"
     },
     {
         "id": 4,
-        "estate_title": "Luxury Desert Resort",
+        "estate_title": "Nazimgarh Wilderness Resort",
         "segment_name": "Exclusive",
         "description": "An exotic resort offering unique experiences amidst desert landscapes.",
         "price": "20,000 BDT/night",
@@ -69,11 +69,11 @@
             "Bonfire area",
             "Spa"
         ],
-        "image": "https://example.com/images/desert-resort.jpg"
+        "image": "https://i.ibb.co.com/j8bgdPz/Nazimgarh-Wilderness-Resort.webp"
     },
     {
         "id": 5,
-        "estate_title": "Lakefront Villa Resort",
+        "estate_title": "Aronnok & Lakeshore Holiday Resort",
         "segment_name": "Luxury",
         "description": "A resort with private villas overlooking a pristine lake.",
         "price": "18,000 BDT/night",
@@ -87,11 +87,11 @@
             "Private deck",
             "Outdoor dining"
         ],
-        "image": "https://example.com/images/lakefront-villa.jpg"
+        "image": "https://i.ibb.co.com/j867Wm6/aronnok-lakeshore-holiday.jpg"
     },
     {
         "id": 6,
-        "estate_title": "Modern Villa in Dhaka",
+        "estate_title": "Crowne Plaza Dhaka Gulshan",
         "segment_name": "Luxury",
         "description": "A spacious villa with modern amenities, perfect for families.",
         "price": "25,000,000 BDT",
@@ -105,34 +105,34 @@
             "Garage",
             "Garden"
         ],
-        "image": "https://example.com/images/villa-dhaka.jpg"
+        "image": "https://i.ibb.co.com/xXXF1Sp/crowne-plaza-dhaka.jpg"
     },
     {
         "id": 7,
-        "estate_title": "Cozy Apartment for Rent",
+        "estate_title": "The Peninsula Chittagong Limited",
         "segment_name": "Apartment",
         "description": "A fully furnished two-bedroom apartment with a great view.",
         "price": "50,000 BDT/month",
         "status": "rent",
         "area": "1200 sq ft",
-        "location": "Banani, Dhaka",
+        "location": "Nizam Road, Bulbul Center, Chittagong",
         "facilities": [
             "Living room",
             "Kitchen",
             "Balcony",
             "Parking"
         ],
-        "image": "https://example.com/images/apartment-rent.jpg"
+        "image": "https://i.ibb.co.com/DKzRZ96/peninsula.webp"
     },
     {
         "id": 8,
-        "estate_title": "Elegant Duplex with Pool",
+        "estate_title": "DuSai Resort & Spa",
         "segment_name": "Premium",
         "description": "A luxurious duplex with private pool and smart home features.",
         "price": "35,000,000 BDT",
         "status": "sale",
         "area": "4000 sq ft",
-        "location": "Dhanmondi, Dhaka",
+        "location": "Srimangal, Sylhet",
         "facilities": [
             "Living room",
             "Swimming pool",
@@ -140,23 +140,23 @@
             "Home theater",
             "Gym"
         ],
-        "image": "https://example.com/images/duplex.jpg"
+        "image": "https://i.ibb.co.com/WD2VDBP/Du-Sai-Resort-Spa.jpg"
     },
     {
         "id": 9,
-        "estate_title": "Compact Studio Apartment",
-        "segment_name": "Budget",
+        "estate_title": "The Palace Luxury Resort",
+        "segment_name": "Luxury",
         "description": "Affordable studio apartment with all essential facilities.",
         "price": "25,000 BDT/month",
         "status": "rent",
         "area": "500 sq ft",
-        "location": "Mirpur, Dhaka",
+        "location": "Habiganj, Sylhet",
         "facilities": [
             "Living room",
             "Kitchen",
             "Shared gym",
             "Rooftop access"
         ],
-        "image": "https://example.com/images/studio-apartment.jpg"
+        "image": "https://i.ibb.co.com/zNRFwvm/tower-building-the-palace.jpg"
     }
 ]

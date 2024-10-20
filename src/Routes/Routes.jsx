@@ -3,7 +3,11 @@ import {
 } from "react-router-dom";
 import Home from "../Pages/Home/Home";
 import Root from "../Root/Root";
-import Test from "../Components/Test/Test";
+import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
+import About from "../Pages/About/About";
+import Login from "../Pages/Login/Login";
+import Resorts from "../Components/Resorts/Resorts";
+import Resort from "../Components/Resort/Resort";
 
 const router = createBrowserRouter([
     {
@@ -16,8 +20,26 @@ const router = createBrowserRouter([
                 loader: () => fetch("/resort.json")
             },
             {
-                path: "/test",
-                element: <Test></Test>
+                path: "/update-profile",
+                element: <UpdateProfile></UpdateProfile>
+            },
+            {
+                path: "/about",
+                element: <About></About>
+            },
+            {
+                path: "/login",
+                element: <Login></Login>
+            },
+            {
+                path: "/resorts",
+                element: <Resorts></Resorts>,
+                loader: () => fetch("/resort.json")
+            },
+            {
+                path: "/resort-description",
+                element: <Resort></Resort>,
+                loader: () => fetch("/resort.json")
             },
 
         ]
