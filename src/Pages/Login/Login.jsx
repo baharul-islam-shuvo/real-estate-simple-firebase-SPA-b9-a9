@@ -7,7 +7,7 @@ const Login = () => {
                 <div className="text-center lg:text-left">
                     <h1 className="text-5xl font-bold">Login Here</h1>
                 </div>
-                <div className="card p-6 bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div className="card p-6 bg-base-100 w-96 max-w-sm shrink-0 shadow-2xl">
                     <form className="card-body">
                         <div className="form-control">
                             <label className="label">
