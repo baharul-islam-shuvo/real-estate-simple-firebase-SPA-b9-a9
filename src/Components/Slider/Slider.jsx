@@ -1,6 +1,6 @@
 const Slider = () => {
     return (
-        <div className="carousel w-full rounded-lg opacity-80 mt-10">
+        <div className="carousel w-full rounded-lg mt-10">
             <div id="slide1" className="carousel-item relative w-full">
                 <img
                     src="https://i.ibb.co.com/R7jj83k/unsplash.jpg"

@@ -6,8 +6,7 @@ import Root from "../Root/Root";
 import UpdateProfile from "../Pages/UpdateProfile/UpdateProfile";
 import About from "../Pages/About/About";
 import Login from "../Pages/Login/Login";
-import Resorts from "../Components/Resorts/Resorts";
-import Resort from "../Components/Resort/Resort";
+import ResortDetails from "../Pages/ResortDetails/ResortDetails";
 
 const router = createBrowserRouter([
     {
@@ -32,14 +31,9 @@ const router = createBrowserRouter([
                 element: <Login></Login>
             },
             {
-                path: "/resorts",
-                element: <Resorts></Resorts>,
-                loader: () => fetch("/resort.json")
-            },
-            {
-                path: "/resort-description",
-                element: <Resort></Resort>,
-                loader: () => fetch("/resort.json")
+                path: "/:id",
+                element: <ResortDetails></ResortDetails>,
+                loader: ()=> fetch("/resort.json")
             },
 
         ]

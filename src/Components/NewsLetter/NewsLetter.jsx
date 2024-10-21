@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 import newsImg from "../../../../resort-img/ren-ran-bBiuSdck8tU-unsplash.jpg"
 const NewsLetter = () => {
     return (
-        <div className="hero bg-transparent">
+        <div className="hero bg-base-100 shadow-xl rounded-xl">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img
                     src={newsImg}
-                    className="max-w-sm rounded-xl opacity-60 shadow-2xl w-[250px]" />
+                    className="max-w-sm rounded-xl  shadow-2xl w-[250px]" />
                 <div>
-                    <h1 className="text-4xl font-bold">Newsletter</h1>
+                    {/* <h1 className="text-4xl font-bold">NEWSLETTER</h1> */}
                     <p className="py-6">
                         <span className="font-bold text-lg">“Stay Connected with Nature’s Best”</span>
                         <br />
@@ -20,7 +20,7 @@ const NewsLetter = () => {
                         <br />
                         <span className="text-lg font-semibold">🌿 Join us in making travel meaningful – directly in your inbox.</span>
                     </p>
-                    <Link to="/login"><button className="btn btn-glass font-bold">Stay Connected</button></Link>
+                    <Link to="/login"><button className="btn btn-neutral font-bold">Stay Connected</button></Link>
                 </div>
             </div>
         </div>
