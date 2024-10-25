@@ -9,6 +9,7 @@ import Login from "../Pages/Login/Login";
 import ResortDetails from "../Pages/ResortDetails/ResortDetails";
 import Register from "../Pages/Register/Register";
 import ErrorPage from "../Error/ErrorPage";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/update-profile",
-                element: <UpdateProfile></UpdateProfile>
+                element: <PrivateRoute><UpdateProfile></UpdateProfile></PrivateRoute>
             },
             {
                 path: "/about",
@@ -39,8 +40,8 @@ const router = createBrowserRouter([
             },
             {
                 path: "/:id",
-                element: <ResortDetails></ResortDetails>,
-                loader: ()=> fetch("/resort.json")
+                element: <PrivateRoute><ResortDetails></ResortDetails></PrivateRoute>,
+                loader: () => fetch("/resort.json")
             },
 
         ]
