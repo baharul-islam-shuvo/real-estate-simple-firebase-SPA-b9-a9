@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProviders";
-
+import 'animate.css';
 const Header = () => {
 
     const { user, logOut } = useContext(AuthContext);
@@ -44,7 +44,7 @@ const Header = () => {
                 </div>
                 <Link
                     to="/"
-                    className="btn btn-ghost text-xl font-bold">
+                    className="animate__animated animate__bounceInDown btn btn-ghost text-xl font-bold">
                     SPA Tropical Resort
                 </Link>
             </div>

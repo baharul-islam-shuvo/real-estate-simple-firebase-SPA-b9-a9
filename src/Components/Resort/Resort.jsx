@@ -1,9 +1,17 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 const Resort = ({ resort }) => {
+
+    useEffect(() => {
+        Aos.init();
+    }, []);
+
     const { id, image, estate_title, price, segment_name, location } = resort;
     return (
-        <div className="card card-compact bg-base-100 w-96 shadow-xl flex flex-col">
+        <div data-aos="flip-right" className="card card-compact bg-base-100 w-96 shadow-xl flex flex-col">
             <figure>
                 <img
                     className='w-[384px] h-[269px]'
