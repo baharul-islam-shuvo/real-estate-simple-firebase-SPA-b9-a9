@@ -10,7 +10,7 @@ const Register = () => {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
         const name = form.get("name");
-        const photoUrl = form.get("photoUrl");
+        const photoUrl = form.get("photo");
         const email = form.get("email");
         const password = form.get("password");
 
@@ -46,7 +46,7 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Photo URL</span>
                             </label>
-                            <input type="text" placeholder="Photo URL" name="photoUrl" className="input input-bordered" />
+                            <input type="text" placeholder="Photo URL" name="photo" className="input input-bordered" />
                         </div>
                         {/* email */}
                         <div className="form-control">
